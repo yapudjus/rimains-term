@@ -1,0 +1,1 @@
+Un [[signaux logiques]] transmet une information qui ne peut avoir que deux valeurs, _vrai_ ou _faux_
