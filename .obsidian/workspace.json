@@ -6,7 +6,6 @@
       {
         "id": "3caa728f563a15ba",
         "type": "tabs",
-        "dimension": 62.02723146747352,
         "children": [
           {
             "id": "587cb44c71a51bf1",
@@ -70,25 +69,6 @@
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "27ddf425c410bbad",
-        "type": "tabs",
-        "dimension": 37.97276853252647,
-        "children": [
-          {
-            "id": "690789a0e1700657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/COMPTE RENDUS DE TP.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -216,8 +196,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0e5c2e35fd60705",
+  "active": "a5304455b1928390",
   "lastOpenFiles": [
+    "SIN/signaux/TP/initiation simulation analogique.pdf",
     "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-33-48].pdsprj",
     "Pasted image 20230911103107.png",
     "Pasted image 20230911102007.png",
@@ -235,7 +216,6 @@
     "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.pdf",
     "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.docx",
     "SIN/SIN/S1 - Modélisation/4 - TP Poulailler autonome connecté/POULAILLER AUTONOME CONNECTE.docx",
-    "SIN/SIN/S3 - Electricité/3-TP/tp4-mesure-des-caracteristiques-des-signaux-alternatifs.pdf",
     "SIN/COMPTE RENDUS DE TP.md",
     "SIN/signaux/TP/initiation simulation analogique.md",
     "SIN/signaux/signaux logiques.md",
