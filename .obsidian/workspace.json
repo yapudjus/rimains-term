@@ -6,6 +6,7 @@
       {
         "id": "3caa728f563a15ba",
         "type": "tabs",
+        "dimension": 62.02723146747352,
         "children": [
           {
             "id": "587cb44c71a51bf1",
@@ -26,18 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "SIN/signaux/signaux logiques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "690789a0e1700657",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/COMPTE RENDUS DE TP.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +69,26 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "27ddf425c410bbad",
+        "type": "tabs",
+        "dimension": 37.97276853252647,
+        "children": [
+          {
+            "id": "690789a0e1700657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIN/COMPTE RENDUS DE TP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "749da12f55592087",
@@ -207,8 +216,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5304455b1928390",
+  "active": "c0e5c2e35fd60705",
   "lastOpenFiles": [
+    "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-33-48].pdsprj",
     "Pasted image 20230911103107.png",
     "Pasted image 20230911102007.png",
     "SIN/signaux/TP/truc analogiqu.pdsprj.THICKPAD.yapudjus.workspace",
