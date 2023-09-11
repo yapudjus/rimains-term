@@ -70,7 +70,17 @@ I7 = I1+I2+I3+I4
 **U** = **R**\***i**
 
 **V.1**
+
 la valeur de i est de 20mA
 
 **V.2**
+![[Pasted image 20230911102007.png]]
+![[Pasted image 20230911103107.png]]
+**V.3**
+**R*2*** = 200Ω
 
+**V.4**
+**R** = **R1** + **R2**
+
+**V.5**
+*La resistance equivalente d'un circuit en série est égale à la somme de toute les résistances du circuit*
