@@ -107,3 +107,7 @@ durant ce cours nous avons résolu différents exercices d'application simples p
 	- [[initiation simulation analogique#**IV.1**]]
 - loi d'Ohm dans un circuit en dérivation (parallèle)
 	- [[initiation simulation analogique#**V.1**]]
+## conclusion général
+cette tache nous a permis un rappel des connaissances acquises l'année dernière, et nous a permis une prise en main rapide des logiciels cités précedemment.
+comme souvent, la théorie est assez porche de la réalitée, cependant
+> la théorie ne nous ammenera qu'aussi loin.
