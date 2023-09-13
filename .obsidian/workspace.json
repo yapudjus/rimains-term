@@ -4,71 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "3caa728f563a15ba",
+        "id": "2f990f763f1ae39d",
         "type": "tabs",
         "children": [
           {
-            "id": "587cb44c71a51bf1",
+            "id": "286c43b4a1cc0e84",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "SIN/signaux/types de signaux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ea3a68e60a521dfe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/signaux/signaux logiques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5304455b1928390",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/signaux/TP/initiation simulation analogique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fbfb9ad913898352",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/signaux/types de signaux.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4d2cbab3957d9df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/signaux/signaux electriques.md",
-                "mode": "source",
-                "source": false
+                "file": "Untitled 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -111.60000000000001,
+                  "zoom": 0
+                }
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,9 +39,14 @@
             "id": "c0e5c2e35fd60705",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "canvas",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Untitled.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -113,13 +72,22 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "cf8037547b5891e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "749da12f55592087",
@@ -135,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/signaux/TP/initiation simulation analogique.md",
+                "file": "Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/signaux/TP/initiation simulation analogique.md",
+                "file": "Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +143,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/signaux/TP/initiation simulation analogique.md"
+                "file": "Untitled.canvas"
+              }
+            }
+          },
+          {
+            "id": "17b8fc17a5118821",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -196,8 +174,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5304455b1928390",
+  "active": "c0e5c2e35fd60705",
   "lastOpenFiles": [
+    "Untitled 1.canvas",
+    "SIN/TP poulailler/REQD.md",
+    "Untitled.canvas",
+    "Untitled Diagram.svg",
+    "SIN/TP poulailler",
+    "SIN/signaux/signaux electriques.md",
+    "SIN/signaux/types de signaux.md",
+    "SIN/signaux/TP/initiation simulation analogique.md",
+    "SIN/signaux/signaux logiques.md",
     "SIN/signaux/TP/initiation simulation analogique.pdf",
     "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-33-48].pdsprj",
     "Pasted image 20230911103107.png",
@@ -214,14 +201,8 @@
     "SIN/SIN/S1 - Modélisation/4-TP_Modélisation Serre connectée/12399-serre-autonome-connecteev2.pdf",
     "SIN/SIN/S1 - Modélisation/4-TP_Modélisation Tiny House/Comment réaliser une tiny house éco.docx",
     "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.pdf",
-    "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.docx",
-    "SIN/SIN/S1 - Modélisation/4 - TP Poulailler autonome connecté/POULAILLER AUTONOME CONNECTE.docx",
     "SIN/COMPTE RENDUS DE TP.md",
-    "SIN/signaux/TP/initiation simulation analogique.md",
-    "SIN/signaux/signaux logiques.md",
-    "SIN/signaux/types de signaux.md",
     "SIN/signaux/signaux numériques.md",
-    "SIN/signaux/signaux electriques.md",
     "SIN/signaux/signaux analogiques.md",
     "SIN/signaux/ENTRYPOINT Signaux.md",
     "SIN/signaux/signal sinusoidal.md",
