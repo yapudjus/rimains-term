@@ -4,25 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "2f990f763f1ae39d",
+        "id": "e86bc85fd7c10864",
         "type": "tabs",
         "children": [
           {
-            "id": "286c43b4a1cc0e84",
+            "id": "e1e781f3d052b2fc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e00456980528494",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "Untitled 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": -111.60000000000001,
-                  "zoom": 0
-                }
+                "file": "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -35,21 +41,6 @@
         "id": "66ec3d6e3ffb64f6",
         "type": "tabs",
         "children": [
-          {
-            "id": "c0e5c2e35fd60705",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Untitled.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
-            }
-          },
           {
             "id": "aa9d207544d70bf8",
             "type": "leaf",
@@ -83,7 +74,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -103,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.canvas",
+                "file": "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.canvas"
+                "file": "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md"
               }
             }
           },
@@ -174,12 +166,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0e5c2e35fd60705",
+  "active": "cf8037547b5891e3",
   "lastOpenFiles": [
+    "SIN/SIN/S1 - Modélisation/TP",
+    "SIN/SIN/S1 - Modélisation/TP/Untitled Diagram.drawio",
+    "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
+    "SIN/SIN/S1 - Modélisation/2-Cours/1 - Cours Analyse Fonctionnelle SysML et chaines energie - information.pdf",
+    "SIN/signaux/ENTRYPOINT Signaux.md",
+    "SIN/SIN/S1 - Modélisation/2-Cours/LEXIQUE.pdf",
+    "Untitled Diagram.svg",
+    "Untitled.canvas",
     "Untitled 1.canvas",
     "SIN/TP poulailler/REQD.md",
-    "Untitled.canvas",
-    "Untitled Diagram.svg",
     "SIN/TP poulailler",
     "SIN/signaux/signaux electriques.md",
     "SIN/signaux/types de signaux.md",
@@ -198,13 +196,9 @@
     "Pasted image 20230911091113.png",
     "Pasted image 20230911091038.png",
     "SIN/SIN/S1 - Modélisation/4-TP_Modélisation Serre connectée/Pitch Serre connectée.docx",
-    "SIN/SIN/S1 - Modélisation/4-TP_Modélisation Serre connectée/12399-serre-autonome-connecteev2.pdf",
-    "SIN/SIN/S1 - Modélisation/4-TP_Modélisation Tiny House/Comment réaliser une tiny house éco.docx",
-    "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.pdf",
     "SIN/COMPTE RENDUS DE TP.md",
     "SIN/signaux/signaux numériques.md",
     "SIN/signaux/signaux analogiques.md",
-    "SIN/signaux/ENTRYPOINT Signaux.md",
     "SIN/signaux/signal sinusoidal.md",
     "SIN/signaux/formes de signaux.md"
   ]
