@@ -10,13 +10,15 @@
           {
             "id": "e1e781f3d052b2fc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -171,23 +173,27 @@
   },
   "active": "e1e781f3d052b2fc",
   "lastOpenFiles": [
+    "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/CR-TP-3a.pdf",
+    "Pasted image 20230918211333.png",
+    "Pasted image 20230918211318.png",
+    "Pasted image 20230918211305.png",
+    "Pasted image 20230918211226.png",
+    "SIN/signaux/TP/initiation simulation analogique.md",
+    "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
+    "SIN/COMPTE RENDUS DE TP.md",
+    "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.2.png",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.1.png",
     "SIN/SIN/S3 - Electricité/3-TP/SESRYUOP.2.png",
     "SIN/SIN/S3 - Electricité/3-TP/SESRYUOP.1.png",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.1.jpg",
-    "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
-    "SIN/signaux/TP/initiation simulation analogique.md",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.2.jpg",
-    "SIN/COMPTE RENDUS DE TP.md",
     "SIN/SIN/S3 - Electricité/3-TP/3-TP1_UtilisationGBF-OSCILLO.pdf",
     "SIN/signaux/ENTRYPOINT Signaux.md",
-    "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
     "SIN/SIN/S1 - Modélisation/TP",
     "SIN/SIN/S1 - Modélisation/TP/Untitled Diagram.drawio",
     "SIN/SIN/S1 - Modélisation/2-Cours/1 - Cours Analyse Fonctionnelle SysML et chaines energie - information.pdf",
     "SIN/SIN/S1 - Modélisation/2-Cours/LEXIQUE.pdf",
-    "Untitled Diagram.svg",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "SIN/TP poulailler/REQD.md",
@@ -197,12 +203,8 @@
     "SIN/signaux/signaux logiques.md",
     "SIN/signaux/TP/initiation simulation analogique.pdf",
     "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-33-48].pdsprj",
-    "Pasted image 20230911103107.png",
-    "Pasted image 20230911102007.png",
     "SIN/signaux/TP/truc analogiqu.pdsprj.THICKPAD.yapudjus.workspace",
     "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-15-36].pdsprj",
-    "Pasted image 20230911093634.png",
-    "Pasted image 20230911093029.png",
     "SIN/signaux/signaux numériques.md",
     "SIN/signaux/signaux analogiques.md",
     "SIN/signaux/signal sinusoidal.md",

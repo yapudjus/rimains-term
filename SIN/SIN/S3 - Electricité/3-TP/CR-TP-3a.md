@@ -53,6 +53,9 @@
 
 ## résultats trouvés
 
-![[SESRYUOP.1.png]]
-![[SESRYUOP.2.png]]
-
+![[Pasted image 20230918211305.png]]
+![[Pasted image 20230918211318.png]]
+![[Pasted image 20230918211333.png]]
+![[Pasted image 20230918211226.png]]
+## compétences acquises :
+suite à cette séance, nous sommes en capacitée d'utiliser un osciloscope, afin de visualiser différents signaux dans le temps, ainsi qu'au maniement d'un generateur basse fréquence, qui peut nous permettre de tester différents circuits.
