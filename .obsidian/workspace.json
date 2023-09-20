@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e86bc85fd7c10864",
+        "id": "d8449a0f256a6543",
         "type": "tabs",
         "children": [
           {
-            "id": "e1e781f3d052b2fc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "583d6ac5b528ab09",
+            "id": "e14a275965cb50fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIN/signaux/TP/initiation simulation analogique.md",
+                "file": "SIN/signaux/EXO.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "749da12f55592087",
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
+                "file": "SIN/signaux/EXO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
+                "file": "SIN/signaux/EXO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md"
+                "file": "SIN/signaux/EXO.md"
               }
             }
           },
@@ -168,28 +154,37 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-audio-notes:Quick Audio Note with Transcription": false
     }
   },
-  "active": "e1e781f3d052b2fc",
+  "active": "e14a275965cb50fb",
   "lastOpenFiles": [
+    "SIN/TP poulailler/REQ.drawio",
+    "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/2-TD_SignauxElectriques.pdf",
+    "Untitled Diagram.svg",
+    "SIN/signaux/EXO.md",
+    "SIN/signaux/signal sinusoidal.md",
+    "SIN/signaux/formes de signaux.md",
+    "SIN/signaux/ENTRYPOINT Signaux.md",
+    "SIN/signaux/types de signaux.md",
+    "SIN/signaux/signaux logiques.md",
+    "SIN/signaux/signaux numériques.md",
+    "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
+    "SIN/signaux/TP/initiation simulation analogique.md",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/CR-TP-3a.pdf",
     "Pasted image 20230918211333.png",
     "Pasted image 20230918211318.png",
     "Pasted image 20230918211305.png",
     "Pasted image 20230918211226.png",
-    "SIN/signaux/TP/initiation simulation analogique.md",
     "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
     "SIN/COMPTE RENDUS DE TP.md",
-    "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.2.png",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.1.png",
     "SIN/SIN/S3 - Electricité/3-TP/SESRYUOP.2.png",
     "SIN/SIN/S3 - Electricité/3-TP/SESRYUOP.1.png",
     "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.1.jpg",
-    "SIN/SIN/S3 - Electricité/2-TD_SignauxElectriques/SESRYUOP.2.jpg",
     "SIN/SIN/S3 - Electricité/3-TP/3-TP1_UtilisationGBF-OSCILLO.pdf",
-    "SIN/signaux/ENTRYPOINT Signaux.md",
     "SIN/SIN/S1 - Modélisation/TP",
     "SIN/SIN/S1 - Modélisation/TP/Untitled Diagram.drawio",
     "SIN/SIN/S1 - Modélisation/2-Cours/1 - Cours Analyse Fonctionnelle SysML et chaines energie - information.pdf",
@@ -199,15 +194,8 @@
     "SIN/TP poulailler/REQD.md",
     "SIN/TP poulailler",
     "SIN/signaux/signaux electriques.md",
-    "SIN/signaux/types de signaux.md",
-    "SIN/signaux/signaux logiques.md",
     "SIN/signaux/TP/initiation simulation analogique.pdf",
     "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-33-48].pdsprj",
-    "SIN/signaux/TP/truc analogiqu.pdsprj.THICKPAD.yapudjus.workspace",
-    "SIN/signaux/TP/Project Backups/truc analogiqu [20230911, 10-15-36].pdsprj",
-    "SIN/signaux/signaux numériques.md",
-    "SIN/signaux/signaux analogiques.md",
-    "SIN/signaux/signal sinusoidal.md",
-    "SIN/signaux/formes de signaux.md"
+    "SIN/signaux/signaux analogiques.md"
   ]
 }
