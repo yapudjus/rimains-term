@@ -1,3 +1,5 @@
+## intro
+le but du TP est l'etude d'un système Symulink MatLAB, afin de se familiariser avec le logiciel, et apprendre à tirer des conclusions
 ## etude du sysml
  - possibilitée de desolidariser la porte manuellement
  - eclairage lors de l'ouverture et fermeture + 2min après
@@ -26,6 +28,7 @@ depuis le fichier [[SIN/SIN/S4 - Composants/4-TP_OuvrePorteDeGarageVersionMATLAB
 |0|1|système entièrement à l'arret|
 |1|0|moteur et lampe actifs, durant l'utilisation ouverture/fermeture|
 |1|1|seul moteur actif, durna t les premiers instant car moteur actif en premier dans le code|
+
 les combinaisons disponibles sont liés au fait que les ports sont distinct, et dans différents états, afin de permetre un contrôle complet des éléments
 
 ## exo
@@ -61,3 +64,5 @@ nous pouvons en conclure que:
 	- seulement quand le pin moteur (TB5) est actif
 - les 2 sont inactifs seulement quand les 2 pins sont à l'etat bas
 - le pin NC du relai lampe (X2) est connécté 'en parallele' avec le moteur, et le pin NO est connéctè au 24v, permettant d'alimenter la lampe avec le moteur, quel que soitr l'etat du relai, mais aussi un contrôle de la lampe indépendant du moteur.
+
+*version: DRAFT-1*
