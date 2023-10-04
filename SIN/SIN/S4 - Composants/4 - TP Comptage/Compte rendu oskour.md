@@ -39,3 +39,13 @@ La logique booléenne est utilisée dans presque touts les aspects de **l'electr
 Durant le **XIXe siècle**, ***George Bool*** a développé une nouvelle forme d'algèbre, aujourd'hui appelée algèbre booléenne en son honneur.
 Les équations booléennes utilisent le système des nombres **binaires** pour fournir un moyen très précis d'illustrer la logique des **portes logiques**.
 Une porte est l'endroit où un flux circule. La porte prende **une entrée** (généralement A et/ou B) et donne une **sortie** (Y et/ou X)
+
+| Schéma                               | Porte            | Symbole                              | équation booléenne                   |
+| ------------------------------------ | ---------------- | ------------------------------------ | ------------------------------------ |
+| ![[Pasted image 20231004111138.png]] | ET\|OR           | ∧ ou &                               | a.b                                  |
+| ![[Pasted image 20231004111315.png]] | OU\|OR           | ∨                                    | a+b                                  |
+| ![[Pasted image 20231004111509.png]] | NON\|NOT         | ¬                                    | a̅                                   |
+| ![[Pasted image 20231004111957.png]] | NON OU\|NOR      | ![[Pasted image 20231004112048.png]] | ![[Pasted image 20231004112102.png]] |
+| ![[Pasted image 20231004112121.png]] | OU-EXCLUSIF\|XOR | ⊻                                    | a⊕b                                  |
+| ![[Pasted image 20231004112320.png]] | NON-ET\|NAND     | A ↑ B ou⌜ ( A ∧ B )  ou a ⋅ b ¯      | ![[Pasted image 20231004112439.png]] |
+
