@@ -4,34 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "6e6ec06f5a70592c",
+        "id": "aec67fb9fee19012",
         "type": "tabs",
         "children": [
           {
-            "id": "2fa5a72b0e65aaa1",
+            "id": "aedbead192a5fe49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
+                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "a84d2cc87cb81e22",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ea9492a571e9ec3e",
+            "id": "44834b44a774b09b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.pdf"
+                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5,
-    "collapsed": true
+    "width": 279.5
   },
   "right": {
     "id": "749da12f55592087",
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
+                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
+                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md"
+                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md"
               }
             }
           },
@@ -156,13 +151,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "36bf4d8f3f278f4f",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,20 +180,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2fa5a72b0e65aaa1",
+  "active": "aedbead192a5fe49",
   "lastOpenFiles": [
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.pdf.part",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006114043.png",
+    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006111231.png",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006105015.png",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.pdf",
+    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
+    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/imgs/Pasted image 20231006102959.png",
+    "Pasted image 20230918211333.png",
+    "Pasted image 20230918211318.png",
+    "Pasted image 20230911103107.png",
+    "Pasted image 20230911102007.png",
+    "Pasted image 20230911093634.png",
+    "Pasted image 20230911093029.png",
+    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/imgs",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.pdf",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004111138.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004111315.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004111509.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004111957.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004112048.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004112102.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004112121.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004112320.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231004112439.png",
-    "Pasted image 20231004112439.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs",
     "Untitled 1.md",
     "Untitled.md",
@@ -201,9 +210,6 @@
     "SIN/Comment rédiger un compte rendu de Travaux Pratiques.docx",
     "SIN/SIN/S4 - Composants/4-TP_OuvrePorteDeGarageVersionPROTEUS/Annexes/Project Backups/OuvrePorteGarage_elv [Autosaved].pdsprj",
     "SIN/SIN/S4 - Composants/4-TP_OuvrePorteDeGarageVersionPROTEUS/Annexes/Project Backups",
-    "SIN/SIN/S4 - Composants/TP",
-    "SIN/TP poulailler/block_diag.drawio",
-    "SIN/TP poulailler/REQ.drawio",
     "SIN/signaux/EXO.md",
     "SIN/signaux/signal sinusoidal.md",
     "SIN/signaux/formes de signaux.md",
