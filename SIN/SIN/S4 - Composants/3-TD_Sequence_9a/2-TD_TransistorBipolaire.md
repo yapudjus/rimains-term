@@ -45,14 +45,31 @@ d'après la loi d'Ohm (*U = R\*I*) on peut déduire que *U2 = R2 \* iC*, *iC* et
 déduire *Vec*
 en utilisant la loi des mailles
 on a ***A-Vec-U2 = 0***
-donc *A-Vec=0*
+donc *A-Vec=0* car *U2 = 0*
 *Vec=A*
 ***Vec = 10V***
 ### q4
 #### a
 le transistor est ***saturé*** car la tension est à 0V
 #### b
-
+eh fuck it not copying this at lightning speed
+TU TU TUDU
+MAX VERSTAPPEN
+TU TU DUDU
+MAX VERSTAPPEN
 #### c
-
+d'après la loi d'ohm
+*Vec = R(Vec) \* Ic*
+la resistance d'un fil etant nul, on a ***Vec = 0***
 #### d
+d'après la loi des mailles
+*A-Vec-U2 = 0*
+donc 
+*A-U2 = 0*
+*U2 = A*
+***U2 = 10v***
+
+d'après la loi d'ohm
+*iC = U2 / R2*
+*iC = 10/470*
+***iC = 0.02A***
