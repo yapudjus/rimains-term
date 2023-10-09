@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 411.5
   },
   "right": {
     "id": "749da12f55592087",
@@ -180,12 +180,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "aedbead192a5fe49",
+  "active": "cf8037547b5891e3",
   "lastOpenFiles": [
-    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.pdf.part",
-    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006114043.png",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231009083453.png",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231009083126.png",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231009081734.png",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.pdf.part",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006114043.png",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006111231.png",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/Pasted image 20231006105015.png",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.pdf",
@@ -195,8 +198,6 @@
     "Pasted image 20230918211318.png",
     "Pasted image 20230911103107.png",
     "Pasted image 20230911102007.png",
-    "Pasted image 20230911093634.png",
-    "Pasted image 20230911093029.png",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/imgs",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.pdf",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
@@ -209,7 +210,6 @@
     "SIN/SIN/S4 - Composants/4-TP_OuvrePorteDeGarageVersionPROTEUS/Annexes/OuvrePorteGarage_elv.pdsprj.THICKPAD.yapudjus.workspace",
     "SIN/Comment rédiger un compte rendu de Travaux Pratiques.docx",
     "SIN/SIN/S4 - Composants/4-TP_OuvrePorteDeGarageVersionPROTEUS/Annexes/Project Backups/OuvrePorteGarage_elv [Autosaved].pdsprj",
-    "SIN/SIN/S4 - Composants/4-TP_OuvrePorteDeGarageVersionPROTEUS/Annexes/Project Backups",
     "SIN/signaux/EXO.md",
     "SIN/signaux/signal sinusoidal.md",
     "SIN/signaux/formes de signaux.md",

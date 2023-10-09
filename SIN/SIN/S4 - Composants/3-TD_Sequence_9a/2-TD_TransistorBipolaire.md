@@ -34,4 +34,25 @@ le transistor T est un transistor PNP
 ![[Pasted image 20231006114043.png]]
 ### q3
 #### a
-le transistor est bloquant car le sens de circulation de iB est incorrect (rentre dans la bses au lieu de sortir)
+le transistor est bloquant car le sens de circulation de iB est incorrect (rentre dans la base au lieu de sortir)
+#### b
+![[Pasted image 20231009083453.png]]
+#### c
+déduire la valeur de *iC* et *U2*
+**ic est nul** car le circuit sur lequel ce situe *iC* est ouvert au niveau du transistor *T*
+d'après la loi d'Ohm (*U = R\*I*) on peut déduire que *U2 = R2 \* iC*, *iC* etant nul, ***U2* est nul** aussi
+#### d
+déduire *Vec*
+en utilisant la loi des mailles
+on a ***A-Vec-U2 = 0***
+donc *A-Vec=0*
+*Vec=A*
+***Vec = 10V***
+### q4
+#### a
+le transistor est ***saturé*** car la tension est à 0V
+#### b
+
+#### c
+
+#### d
