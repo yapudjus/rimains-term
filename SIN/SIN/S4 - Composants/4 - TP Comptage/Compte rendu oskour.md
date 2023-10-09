@@ -82,11 +82,31 @@ Table de vérité OU (OR)
 | 1       | 0       | 1      |
 | 1       | 1       | 1      |
 
-Table NOR
+Table NOT
 
 | Entrées | Sortie |
 | ------- | ------ |
 | **a**   | **L**  |
 | 0       | 1      |
 | 1       | 1      |
+
+Table de vérité NON-OU (NOR)
+
+| Entrées | Entrées | Sortie |
+| ------- | ------- | ------ |
+| **a**   | **b**   | **L**  |
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 0      |
+
+Table de vérité OU-EXCLUSIF (XOR)
+
+| Entrées | Entrées | Sortie |
+| ------- | ------- | ------ |
+| **a**   | **b**   | **L**  |
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
 
