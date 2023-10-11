@@ -110,3 +110,32 @@ Table de vérité OU-EXCLUSIF (XOR)
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
+## act4
+en modelisant le circuit sur proteus:
+![[Pasted image 20231011112513.png]]
+nous pouvons modifier la valeur de la resistance *R2*
+
+et obptenir ce tableau
+
+| Valeur de *R2* | capture de l'oscilloscope            | frequence de sortie |
+| -------------- | ------------------------------------ | ------------------- |
+| 10k Ohm        | ![[Pasted image 20231011113145.png]] |33.6ms => **29.7Hz**|
+| 100k Ohm       |![[Pasted image 20231011113717.png]]|309.19ms => **3.23Hz**|
+| 510k Ohm       |![[Pasted image 20231011114109.png]]|**1.52sec** => 0.657Hz|
+| 1M Ohm         |![[Pasted image 20231011114512.png]]|**3.08sec**|
+| 1.5M Ohm       |![[Pasted image 20231011114919.png]]|**4.6sec**|
+
+***nous pouvons en déduire que plus la resistance est élévée, plus la periode augmente, et la frequence diminue (F = 1/T), et vice versa***
+
+pour avoir une periode de 1sec, la resistance R2 est de environ 330k Ohm
+![[Pasted image 20231011115733.png]]
+***nous pourions deduire qu'une resistance 5x plus haute (1.65M Omh) donnerait une periode 5x plus élevée***, de même pour 10sec => 3.3M Ohm
+
+avec le condensateur à 1uF et R2 à 100k Ohm, une periode de 140ms est atteinte, contre 330ms avec le condensateur à 2.2uF
+![[Pasted image 20231011120430.png]]
+***nous pouvons en deduire que plus la capacitée du condensateur est faible, plus la frequence est élevée, et vis versa***
+
+#### en conclusion:
+ - plus la resistance R2 est élevée, plus la frequence baisse
+ - plus la capacitée du condensateur est élevée, plus la frequence baisse
+
