@@ -139,3 +139,35 @@ avec le condensateur à 1uF et R2 à 100k Ohm, une periode de 140ms est atteinte
  - plus la resistance R2 est élevée, plus la frequence baisse
  - plus la capacitée du condensateur est élevée, plus la frequence baisse
 
+
+## act5
+avec le composant `7SEG-COM-CAT-BLUE` de proteus8
+
+|     | ***A***   |     |
+| --- | --- | --- |
+| ***F***   |     | ***B***   |
+|    |***G***|    |
+|***E***|    |***C***|
+|     |***D***|     |
+
+| valeur affichée | A   | B   | C   | D   | E   | F   | G   |
+| --------------- | --- | --- | --- | --- | --- | --- | --- |
+| **0**               | 1   | 1   | 1   | 1   | 1   | 1   | 0   |
+| **1**               | 0   | 1   | 1   | 0   | 0   | 0   | 0   |
+| **2**               | 1   | 1   | 0   | 1   | 1   | 0   | 1   |
+| **3**               | 1   | 1   | 1   | 1   | 0   | 0   | 1   |
+| **4**               | 0   | 1   | 1   | 0   | 0   | 1   | 1   |
+| **5**               | 1   | 0   | 1   | 1   | 0   | 1   | 1   |
+| **6**               | 1   | 0   | 1   | 1   | 1   | 1   | 1   |
+| **7**               | 1   | 1   | 1   | 0   | 0   | 0   | 0   |
+| **8**               | 1   | 1   | 1   | 1   | 1   | 1   | 1   |
+| **9**               | 1   | 1   | 1   | 1   | 0   | 1   | 1   |
+| **A**               | 1   | 1   | 1   | 0   | 1   | 1   | 1   |
+| **B**               | 0   | 0   | 1   | 1   | 1   | 1   | 1   |
+| **C**               | 1   | 0   | 0   | 1   | 1   | 1   | 0   |
+| **D**               | 0   | 1   | 1   | 1   | 1   | 0   | 1   |
+| **E**               | 1   | 0   | 0   | 1   | 1   | 1   | 1   |
+| **F**               | 1   | 0   | 0   | 0   | 1   | 1   | 1   |
+
+le pin `dot pin` (non présent sur proteus sur le 1x 7seg), correspond au point en bas à droite de l'afficheur, pour la virgule, ou pour afficher 2 points sur une horloge en tournant de 180deg le 3e afficheur en partant de la gauche
+
