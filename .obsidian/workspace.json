@@ -11,21 +11,9 @@
             "id": "1b69e6ced064d9b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba3fef33ffb86ed8",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/cours condensateur.pdf"
+                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf"
               }
             }
           }
@@ -80,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "749da12f55592087",
@@ -97,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
+                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
+                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md"
+                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf"
               }
             }
           },
@@ -180,13 +167,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1b69e6ced064d9b9",
+  "active": "cf8037547b5891e3",
   "lastOpenFiles": [
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/3-TD_TransistorMOSFET.pdf.part",
+    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/3-TD_TransistorMOSFET.pdf",
+    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/cours condensateur.pdf",
+    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TD Condensateur élève.pdf",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/condensateur - aditivitée.md",
-    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TD Condensateur élève.okular",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.pdf",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
@@ -194,8 +184,6 @@
     "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.odg",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/lu8351700j2.tmp",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/Project Backups/7seg_disp [Autosaved].pdsprj",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/Project Backups/7seg_disp [20231011, 12-14-16].pdsprj",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/7seg_disp.pdsprj",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011112513.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011113145.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011113717.png",
