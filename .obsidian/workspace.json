@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "31b4c1c2b49b305e",
+        "id": "a28ae137c5a1006d",
         "type": "tabs",
         "children": [
           {
-            "id": "1b69e6ced064d9b9",
+            "id": "bec1d8d2312072d4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf"
+                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
+                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
+                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf"
+                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md"
               }
             }
           },
@@ -167,23 +169,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cf8037547b5891e3",
+  "active": "bec1d8d2312072d4",
   "lastOpenFiles": [
-    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/3-TD_TransistorMOSFET.pdf.part",
-    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/3-TD_TransistorMOSFET.pdf",
-    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/1-Cours-InterrupteursParfaits.pdf",
-    "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/cours condensateur.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/2-Cours/s2_capteurs_et_actionneurs-2.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/2-Cours/Chaîne d'information - capteurs  profs.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/2-Cours/Cours_Capteurs_et_Actionneurs.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/1-Activation/Tutoriel-IoT.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/1-Activation/Cours capteurs - actionneurs.mp4",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/TSL2561T.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/Grove_Digital_Light_Sensor-master.zip",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/Digital light sensor v1.0 Sch.pdf",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/2-Cours/ConversionAnalogiqueNumerique.pdf",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
-    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TD Condensateur élève.pdf",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/condensateur - aditivitée.md",
-    "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TD Condensateur élève.okular",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.pdf",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/Compte rendu oskour.md",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/7seg_disp.pdsprj.THICKPAD.yapudjus.workspace",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/TP COmptage.odg",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/lu8351700j2.tmp",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/Project Backups/7seg_disp [Autosaved].pdsprj",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011112513.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011113145.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011113717.png",
