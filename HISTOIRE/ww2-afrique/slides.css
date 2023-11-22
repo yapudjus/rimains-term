@@ -1,0 +1,212 @@
+ul.slides_container {
+    list-style: none;
+    position: fixed;
+    margin-top: 0%;
+    padding-top: 0%;
+    margin: 0% 0%;
+    padding-left: 0%;
+    width: 70%;
+    min-height: 1080px;
+    max-height: 70%;
+    overflow: scroll;
+    top: 13.7363%;
+    left: 33px;
+}
+
+li.slide_element {
+    padding: 0% 0%;
+    height: 1080px;
+    width: auto;
+}
+
+div.bg_image div img {
+    box-shadow: 3px 5px 101px 8px rgba(0, 0, 0, 0.67);
+    -webkit-box-shadow: 3px 5px 101px 8px rgba(0, 0, 0, 0.67);
+    -moz-box-shadow: 3px 5px 101px 8px rgba(0, 0, 0, 0.67);
+}
+
+.bg_image {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1080px;
+}
+
+h1.title {
+    color: #2c2c2c;
+    background: rgba(73, 73, 73, 0.5);
+    width: fit-content;
+    width: -moz-fix-content;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 4em;
+    margin-top: 5%;
+    padding-left: 1em;
+    padding-right: 1em;
+    /* from https://cssgenerator.org/border-radius-css-generator.html  */
+    border-radius: 0px 0px 16px 16px;
+    -webkit-border-radius: 0px 0px 16px 16px;
+    -moz-border-radius: 0px 0px 16px 16px;
+    /*  from https://cssgenerator.org/box-shadow-css-generator.html */
+    box-shadow: 4px 10px 50px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 10px 50px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 10px 50px -1px rgba(0, 0, 0, 0.75);
+}
+
+
+.out {
+    animation-name: zoom-out;
+    animation-duration: 0.6s;
+}
+
+
+/* Add Animation */
+
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom-out {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(0)
+    }
+}
+
+@keyframes zoom-out {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(0)
+    }
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1)
+    }
+    to {
+        -webkit-transform: scale(2)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.4)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+
+/* Caption of Modal Image */
+
+#caption {
+    margin: auto;
+    font-size: 2.5em;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 0 0;
+    height: 150px;
+}
+
+
+/* Modal Content (image) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 75%;
+    /* max-width: 75%; */
+}
+
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 99;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.hovertext {
+    position: relative;
+    border-bottom: 1px dotted black;
+}
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: auto;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    left: 0; 
+    top: 110%;
+}
+
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+#ezg4168g p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#sg56ze h3 {
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+}
+
+#sg56ze p {
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+
