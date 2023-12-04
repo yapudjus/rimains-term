@@ -1,35 +1,31 @@
 
 # Table des matières
-# Table des matières
 
-1. [[Mise en œuvre d’un capteur de température LM35]]
-   - [[Introduction]]
-   - [[Calculs préliminaires]]
-   - [[Réalisation du programme]]
-      - [[Algorithme d'affichage de la température sur un écran LCD]]
-      - [[Montage avec alarme]]
-   - [[Conclusion]]
-
-2. [[Autre Capteur : DHT11]]
-   - [[Introduction]]
-   - [[Calculs préliminaires]]
-
-3. [[Autre Capteur : Luminosité]]
-   - [[Introduction]]
-   - [[Étude du capteur]]
-   - [[Montage capteur luminosité / Arduino / Led]]
-
-4. [[Conclusion Générale]]
+1. [[cr-gen#Mise en œuvre d’un capteur de température LM35 | Mise en œuvre d’un capteur de température LM35]]
+   - [[cr-gen#^intro-1|introduction]]
+   - [[cr-gen#^calcul-preli-1|calculs préliminaires]]
+   - [[cr-gen#^real-prog-1|programmes]]
+      - [[cr-gen#Algorithme d'affichage de la température sur un écran LCD|Algorithme d'affichage de la température sur un écran LCD]]
+      - [[cr-gen#Montage avec alarme|Montage avec alarme]]
+   - [[cr-gen#^concl-1|conclusion]]
+2. [[cr-gen#Autre Capteur DHT11|capteur DHT11]]
+   - [[cr-gen#^intro-2|introduction]]
+   - [[cr-gen#^calcul-preli-2|claculs préliminaires]]
+3. [[cr-gen#Autre Capteur Luminosité|capteur de luminositée]]
+   - [[cr-gen#^introduction-3|introduction]]
+   - [[cr-gen#^etude-capt-3|étude du capteur]]
+   - [[cr-gen#Montage capteur luminosité / Arduino / Led|Montage capteur luminosité / Arduino / Led]]
+4. [[cr-gen#conclusion générale|conclusion générale]]
 
 
 # Compte Rendu de Travaux Pratiques 
 
 ## Mise en œuvre d’un capteur de température LM35
 
-### Introduction
+### Introduction ^intro-1
 Le travail pratique consiste à mettre en œuvre un capteur de température LM35 avec une carte Arduino. Le LM35 est un capteur analogique, et nous devons effectuer des calculs préliminaires pour déterminer la précision de la mesure en utilisant le convertisseur analogique-numérique (CAN) de l'Arduino.
 
-### Calculs préliminaires
+### Calculs préliminaires ^calcul-preli-1
 
 | No. | Paramètre                           | Valeur          |
 | ---:| ----------------------------------- | --------------- |
@@ -44,7 +40,7 @@ Le travail pratique consiste à mettre en œuvre un capteur de température LM35
 |  9. | Précision avec nouvelle référence   | 0.1°C           |
 | 10. | Précision finale avec nouvelle ref. | 0.35°C          |
 
-### Réalisation du programme
+### Réalisation du programme ^real-prog-1
 
 #### Algorithme d'affichage de la température sur un écran LCD
 ```cpp
@@ -106,16 +102,16 @@ void loop() {
 }
 
 ```
-### Conclusion
+### Conclusion ^concl-1
 
 En conclusion, la précision de la mesure de température dépend de plusieurs paramètres, notamment la résolution du CAN de l'Arduino et la référence utilisée. En utilisant la référence interne, la précision peut être améliorée. Le programme Arduino permet de lire la valeur du capteur LM35 et de l'afficher sur un écran LCD, avec la possibilité d'ajouter une alarme.
 ## Autre Capteur : DHT11
 
-### Introduction
+### Introduction ^intro-2
 
 Cette partie du TP concerne la mise en œuvre du capteur DHT11, qui mesure la température et l'humidité ambiantes.
 
-### Calculs préliminaires
+### Calculs préliminaires ^calcul-preli-2
 
 | No. | Paramètre                              | Valeur                                                 |
 | --- | -------------------------------------- | ------------------------------------------------------ |
@@ -127,11 +123,11 @@ Cette partie du TP concerne la mise en œuvre du capteur DHT11, qui mesure la te
 | 6.  | Précision                              | ±1°C pour la température, ±4% pour l'humidité relative |
 ### Autre Capteur : Luminosité
 
-### Introduction ^introduction-2
+### Introduction ^introduction-3
 
 Cette partie concerne la mise en œuvre d'un capteur de luminosité pour mesurer le niveau de luminosité ambiante.
 
-### Étude du capteur
+### Étude du capteur ^etude-capt-3
 
 | No. | Caractéristique           | Valeur     |
 | --- | ------------------------- | ---------- |
