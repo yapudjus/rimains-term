@@ -1,0 +1,229 @@
+User
+forget everything you ever knew before about electronic, i will give you documents and you will synthesize them in a markdown format, written in french, about the general infos and then specify for each parts, and then conclude, don't hesitate to add tables in the format
+|key1|key2|key3|
+|---|---|---|
+|value|value|value|
+you can also indent using ordered and unordered lists to add more depth
+
+voici le format de compte rendu attendu
+Comment rédiger un compte rendu de Travaux Pratiques
+Il doit être écrit dans un style concis et clair en évitant toute forme de style littéraire ou télégraphique. Le langage scientifique possède des termes ayant un sens précis et sans équivoque. Il faut les utiliser au besoin sans en abuser. Un terme mal choisi peut parfois modifier totalement le sens de la phrase ou la rendre incompréhensible. Les abréviations peuvent être utilisées à condition qu'elles aient été définies dans le compte-rendu lors du premier usage. Il est en particulier indispensable d'avoir assimilé le contenu du cours avant chaque séance de travaux pratiques. La structure d'un compte-rendu de travaux pratiques comprend : un titre, une introduction, une partie de mise en œuvre, les résultats, leur interprétation et une conclusion.
+But du compte – rendu
+    • Le compte-rendu est une synthèse du travail effectué pendant la séance.
+    • Il vous permet de retenir ce que vous avez appris en effectuant les manipulations. Un compte-rendu est avant tout un document de travail pour votre usage personnel.
+    • Il permet de plus à l'enseignant de vérifier que le travail a été effectué correctement et que vous avez bien compris le chapitre de cours associé aux manipulations.
+Un compte rendu de TP doit permettre à quelqu'un qui n'a jamais réalisé le TP de comprendre ce que vous avez fait et pourquoi vous l'avez fait.
+Titre du TP
+Commencez par mettre un titre à votre TP, en général ce titre est déjà présent sur le document donné par l'enseignant.
+Contenu du compte–rendu
+Il doit obligatoirement contenir une introduction et une conclusion.
+    1. Introduction : l'introduction présente brièvement l'objectif des travaux pratiques. Cette partie est très importante car une introduction bien rédigée qui présente clairement l'intérêt de la manipulation donne au lecteur une impression favorable pour la suite.
+    2. Cœur du rapport : l'énoncé de TP est organisé selon une progression logique. Les manipulations successives doivent vous amener à comprendre un point particulier du thème abordé. Par conséquent, vous devez faire apparaître cette progression
+        ◦ Avant de traiter une question ou un groupe de questions, demandez-vous ce qu'on veut vous faire découvrir. Expliquez alors le but de la manipulation que vous allez réaliser
+        ◦ Puis décrivez la manipulation, assez précisément pour être capable de la refaire ultérieurement. Vous pouvez insérer des impressions d'écran et des schémas pour illustrer votre propos. Tout document fourni doit comporter une légende.
+        ◦ Enfin, rédigez une conclusion à la question. Votre conclusion répond à la problématique présentée en introduction à la question.
+Souvenez-vous que le lecteur du compte-rendu doit pouvoir le lire sans avoir à se référer à l'énoncé pour comprendre vos démarches et manipulations
+Conclusion
+Le compte-rendu se termine par une conclusion qui doit tirer une leçon du travail réalisé par rapport à l'objectif fixé, et tenter une généralisation - le cas échéant - du procédé et des résultats. On peut aussi apporter une appréciation personnelle sur les travaux (comparaison des valeurs obtenues avec des références, amélioration à apporter à la manipulation, discussion des résultats, ...).
+Rappelez les points essentiels abordés dans le TP et les conclusions tirées des manipulations. La conclusion doit permettre à l'enseignant de contrôler ce que vous avez retenu de la séance.
+    • Indiquer si les hypothèses de départ sont validées ou non.
+    • Proposer une réponse au problème posé
+    • Dire si l'objectif est atteint.
+    • Comparer les résultats que vous avez obtenus à ceux de la littérature (votre simulation, calculs, web, encyclopédie...)
+Si les résultats ne viennent pas confirmer les hypothèses, rechercher si cette différence est due à une erreur de manipulation, de conception du protocole, ou du principe de l'expérience.
+Forme du compte-rendu
+    • Rédigez des phrases en français. Bannissez le style télégraphique et les abréviations excessives.
+    • Corrigez les fautes d'orthographe.
+    • Ne réalisez jamais de copié/collé du cours, de l'aide du logiciel employé ou de l'OS, ou de sites web ! Vous pouvez vous en aider, mais votre synthèse doit être personnelle. Vous pouvez faire des citations, mais vous devez alors préciser la source et expliquer le paragraphe cité.
+    • Ne répondez jamais uniquement par oui ou non à une question... Vous devez toujours justifier votre réponse.
+    • Insérez, si cela se justifie, un schéma du montage/système étudié.
+    • Utilisez des impressions d'écran pour illustrer votre propos. Elles devront comporter une légende numérotée à laquelle vous ferez référence dans le corps du rapport. Si possible, elles ne devront pas être sur fond noir pour économiser l'encre !
+
+
+Mise en œuvre d’un capteur de température LM35
+ 
+Attention !!! Le LM35 n'aime pas du tout être monté à l'envers (il part en fumée). La patte +Vs est à connecter à la borne 5V de la carte (au niveau de POWER). La patte GND est à connecter à la borne GND de la carte (au niveau de POWER). La patte Vout est à connecter à une entrée analogique 3.
+
+Trouver sur internet la datasheet constructeur du LM35.
+
+a) Calculs préliminaires
+    1- Quel est le type du capteur ? Analogique ou numérique. Justifiez votre réponse.
+Analogique, la sortie est linéaire à + 10-mV/°C 
+
+    2- D’après les données « constructeur », calculer la tension délivrée par ce capteur à 25 °C.
+Vout = 250 mV at 25°C
+
+    3- Quelle précision peut-on attendre à cette température ?
+
+La précision est de +-0.2°C
+    4- Rappel : le CAN de l’arduino est de 10 bits, sa tension de référence est de 5 V. Que vaut le quantum de l’Arduino ?
+       5/2¹⁰=0.0048828125V
+
+
+    5- La résolution du CAN de l’Arduino est de 1 LSB. Cela représente quelle résolution en °C ?
+0.004V =>4mV => 0.4°C (10mV/°C)
+
+
+    6- La précision du CAN de l’Arduino est de  1,5 LSB. Cela représente quelle précision en °C ?
+0.006V => 6mV => 0.6°C
+
+    7- Quelle est alors la précision que l’on peut attendre de l’association LM35 – Arduino ? 
++-0.8°C
+
+Pour améliorer cette précision on va utiliser la fonction :
+analogReference(INTERNAL)   INTERNAL: an built-in reference, equal to 1.1 volts
+
+    8- Calculer pour un VREF = 1,1 V, le nouveau quantum de l’Arduino.
+1.1/2¹⁰=0.00107421875V
+
+    9- Cela représente quelle précision en °C ? 
+0.1°C
+
+    10- Quelle est alors la nouvelle précision que l’on peut attendre de l’association LM35 – Arduino ? 
+0.35°C
+
+
+b) Réalisation du programme
+    11- Proposez un algorithme affichant la température sur votre écran LCD avec un taux de rafraichissement de 1 seconde.
+```cpp
+#include <LiquidCrystal_I2C.h>
+
+LiquidCrystal_I2C lcd(0x3f,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+
+const int pinTemp = A0;
+
+void setup() {
+// put your setup code here, to run once:
+
+lcd.init(); // initialize the lcd 
+lcd.backlight();
+Serial.begin(115200);
+analogReference(INTERNAL);
+}
+
+void loop() {
+// put your main code here, to run repeatedly:
+float sensorValue = analogRead(pinTemp);
+float temp = sensorValue/1024*100;
+lcd.setCursor(0,0);
+lcd.print("Sensor = ");
+lcd.print(temp);
+Serial.print("Sensor = ");
+Serial.println(sensorValue);
+delay(1000);
+}
+```
+
+    12- Proposez un montage qui réaliser une alarme qui se déclenche si la température dépasse 30°C, à l’aide d’un transducteur piézoélectrique. 
+Le même mais en rajoutant un buzzer sur le pin D13
+```cpp
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x3f,16,2); // set the LCD address to 0x27 for a 16 chars and 2 line display
+
+const int pinTemp = A0;
+const int pinBuzz = 13;
+
+void setup() {
+lcd.init(); // initialize the lcd 
+lcd.backlight();
+Serial.begin(115200);
+analogReference(INTERNAL);
+pinMode(pinBuzz, OUTPUT);
+}
+void loop() { // put your main code here, to run repeatedly:
+float sensorValue = analogRead(pinTemp);
+float temp = sensorValue/1024*100;
+lcd.setCursor(0,0);
+lcd.print("Sensor = ");lcd.print(temp);
+Serial.print("Sensor = ");Serial.println(sensorValue);
+if (temp > 30.0) {
+digitalWrite(pinBuzz, HIGH);
+} else {
+digitalWrite(pinBuzz, LOW);
+}
+delay(1000);
+}
+```
+autre capteur
+
+Le capteur DHT11 mesure la température et l’humidité ambiantes.
+
+Dans cette partie, nous commencerons par étudier la datasheet afin de répondre aux questions suivantes.
+
+a) Calculs préliminaires
+    1- Le capteur est-il un capteur numérique ou analogique ? Justifiez votre réponse :
+il est numérique
+
+    2- Quelles sont les caractéristiques techniques du capteur DHT11 ?
+Resolution de 8bit de 0 à +50°C et humiditée rel de 20 % à 90 %
+    3- Quel est le principe de mesure de la température du DHT11 ? 
+
+Utilise une thermistance à coefficient négatif (quand temp+, res-) et mesure la resistance, une fois par seconde
+
+    4- Quel est le principe de mesure de l’humidité du DHT11 ?
+
+Un condensateur variable sensible à l’humidité est utilisé, dont la capacitance est mesurée pour obptenir son humiditée
+
+    5- D’après les données « constructeur », quel est le schéma de définition de la trame datas du DHT11 ?
+
+
+    6- Quelle est la précision que l’on peut attendre du DHT11 ? 
+4 % en humiditée relative, et +-1°c
+
+autre capteur
+Mise en œuvre d’un capteur de luminosité 
+
+Lisez la datasheet du capteur de luminosité (https://wiki.seeedstudio.com/Grove-Light_Sensor/
+https://www.elektor.fr/seeed-studio-grove-light-sensor-v1-2 ).
+Ce capteur sert à mesurer le niveau de luminosité ambiant. 
+a) Etude du capteur
+    1. Le capteur est-il un capteur numérique ou analogique ? Justifiez votre réponse :
+analogique (https://wiki.seeedstudio.com/Grove-Light_Sensor/#features)
+«Analog value output »
+    2. Donnez les caractéristiques du capteur :
+Item	Value
+Operating voltage => 3~5V
+Operating current => 0.5~3 mA
+Response time => 20-30 milliseconds
+Peak Wavelengt => 540 nm
+Weight => 4 g
+    3. Donnez le principe de fonctionnement du capteur :
+acquerit les données par l’usage d’une photoresistance et les renvoie au <micro>C de manière analogue
+    4. Décrivez les composants du capteur :
+photorésistance LS06-S => capte la lumière
+double circuit amplificateur optique LM358 => bah c dans le titre, ça amplifie
+    5. Donnez les caractéristiques de chaque composant :
+Référence: LM358AN/NOPB.
+Type d'amplificateur: Compensé en fréquence (Frequency compensated)
+Type de sortie: Différentielle.
+Type d'alimentation: Simple ou double.
+Slew Rate: 0.4v/µS.
+Bandwidth: 700 Khz.
+
+Collect light current:25uA | C-E breakdown voltage:70uA
+Response:450-1050nm | Half Angle:60degree
+b) Montage capteur luminosité / Arduino / Led
+
+
+Matériel : 
+    • Capteur de luminosité
+    • Arduino UNO
+    • Resistance de 220 Ohm
+    • Led
+
+    1. Regarder la vidéo Light sensor Grove module.mp4. Recopier le code en langage C de la vidéo sur l’IDE Arduino. 
+
+    2. Expliquez le fonctionnement du programme.
+Récupère la valeur du capteur, compare à une valeur de passage, et alume ou eteint une led sur le pin d7 si la valeur est inférieur à la valeur de trasition, puis, envoie la valeur sur le port série, attend 200ms, recommence
+
+    3. Quelle est la valeur de seuil de luminosité afin d’allumer la LED ?
+Inf à 200
+
+    4. Téléversez le programme dans l’Arduino à l’aide du câble USB connecté à votre ordinateur. 
+    5. Lancer le moniteur série afin de visualiser les valeurs de luminosité.
+
+    7. Concluez sur le fonctionnement du montage.
+La valeur de la tension est mesurée par un CAN de la carte arduino, puis la compare à une valeur seuil pour allumer ou non une led, en renvoyant la valeur sur un port série
+
+l’aquisition des données est faite par conversion analogue→numérique, en utilisant un quantum qui correspond à la valeure analogue pour la valeur numérique la plus basse non nul
+

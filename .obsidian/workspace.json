@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9ebbde0e5c51a11b",
+        "id": "33a8bfea53047523",
         "type": "tabs",
         "children": [
           {
-            "id": "b62abe60d42e3fab",
+            "id": "4f159012804ea38a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,7 +66,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 411.5,
+    "collapsed": true
   },
   "right": {
     "id": "749da12f55592087",
@@ -86,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md"
-              }
+              "state": {}
             }
           },
           {
@@ -149,11 +142,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 613.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -169,24 +162,32 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b62abe60d42e3fab",
+  "active": "4f159012804ea38a",
   "lastOpenFiles": [
+    "Mise en œuvre d’un capteur de température LM35.md",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/cr-gen.md",
+    "Montage capteur luminosité / Arduino / Led.md",
+    "Montage capteur luminosité / Arduino ",
+    "Montage capteur luminosité ",
+    "^introduction-2.md",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/lumin-cr.md",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/lu29338upx.tmp",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/dht11-cr.md",
+    "Pasted image 20231204094416.png",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/lm35-cr.md",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information.zip",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information.zip.ljl080.part",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/TP1 - 2 - Capteur température LM35.odt",
+    "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md",
     "SIN/SIN/BUS CAN/EST-2010.md",
     "CR-CAN.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/TSL2561T.pdf",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/Light sensor Grove module..mp4",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/Digital light sensor v1.0 Sch.pdf",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/Annexes/lm35.pdf",
-    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/TP1 - 4 Capteur LUMINOSITÉ.docx",
-    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/TP1 - 3 Capteur température DHT11.docx",
-    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/TP1 - 1 écran LCD.docx",
-    "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/TP1 - 2 - Capteur température LM35.docx",
-    "SIN/SIN/BUS CAN/EST-2010.pdf",
     "Pasted image 20231120092257.png",
     "Pasted image 20231120083725.png",
     "Pasted image 20231120083559.png",
-    "SIN/SIN/BUS CAN/Annexe CAN p1_merged.pdf",
-    "SIN/SIN/S5 - Capteurs - acquisition de l'information/0-Fiche Sequence/microbit.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
@@ -198,7 +199,6 @@
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011114109.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011114512.png",
     "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011114919.png",
-    "SIN/SIN/S4 - Composants/4 - TP Comptage/imgs/Pasted image 20231011115733.png",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/2-TD_TransistorBipolaire.md",
     "Untitled 1.md",
     "SIN/SIN/S4 - Composants/TP/TP - OuvrePortegarage - MATLAB.md",
@@ -210,13 +210,7 @@
     "SIN/signaux/signaux logiques.md",
     "SIN/signaux/signaux numériques.md",
     "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
-    "SIN/signaux/TP/initiation simulation analogique.md",
-    "SIN/SIN/S1 - Modélisation/TP/TP seq1 chap1 ex2.md",
-    "SIN/COMPTE RENDUS DE TP.md",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "SIN/TP poulailler/REQD.md",
-    "SIN/signaux/signaux electriques.md",
-    "SIN/signaux/signaux analogiques.md"
+    "Untitled 1.canvas"
   ]
 }
