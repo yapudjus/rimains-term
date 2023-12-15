@@ -2,7 +2,7 @@ import math, shutil
 
 def f(x: float) -> float:
     # generate a function that is only increasing
-    return math.sqrt(x)+1
+    return 12*(1-math.e((-x)/x))
 
 def integral_apprx(a: float, b: float, func, samples:int) -> float:
     delta_x:float = (b - a) / samples
@@ -19,4 +19,4 @@ def integral_apprx(a: float, b: float, func, samples:int) -> float:
     total_average:float = (total_aera_rect_inf + total_aera_rect_sup) / 2
     return total_average, total_aera_rect_inf, total_aera_rect_sup
 
-print(integral_apprx(0, 10, f, 10000))
+print(integral_apprx(1, 10, f, 10000))

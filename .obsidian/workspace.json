@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
+                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
+                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/CR.md"
+                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf"
               }
             }
           },
@@ -180,10 +181,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8f94473b47266dd9",
+  "active": "25e29a701b6f3a26",
   "lastOpenFiles": [
-    "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
     "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
+    "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
     "Pasted image 20231213112722.png",
     "Pasted image 20231213110456.png",
     "Pasted image 20231213110106.png",
