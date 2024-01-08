@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "25e29a701b6f3a26",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
+                "file": "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
+                "file": "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf"
+                "file": "SIN/SIN/S6 - Transmission/4-TP_1/CR.md"
               }
             }
           },
@@ -148,7 +137,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -159,14 +150,29 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "737c4224de1a1a26",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "b24d44066f911399",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 206.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,10 +187,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "25e29a701b6f3a26",
+  "active": "b24d44066f911399",
   "lastOpenFiles": [
-    "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
+    "SIN/SIN/S6 - Transmission/4-TP_1/CR.pdf",
+    "SIN/SIN/S6 - Transmission/4-TP_2/ScenarioTP-Sequence9a.pdf",
     "SIN/SIN/S6 - Transmission/4-TP_1/10-Act1-MODEM_NUM.pdf",
+    "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
     "Pasted image 20231213112722.png",
     "Pasted image 20231213110456.png",
     "Pasted image 20231213110106.png",
@@ -204,7 +212,6 @@
     "2I2D/raydan/2i2d/cours",
     "2I2D/raydan/2i2d",
     "2I2D/raydan",
-    "2I2D",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_2/cr.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/cr-gen.md",
     "Mise en œuvre d’un capteur de température LM35.md",

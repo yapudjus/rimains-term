@@ -1,6 +1,10 @@
+
+```table-of-contents
+````
 ## 1
 
-### b. 1ms = 1/1000sec
+### b. 
+1ms = 1/1000sec
 ### c. on genere deux sorties différentes 
 - une sortie pseudo-aléatoire - 1ms/bit
 - une sortie periodique - 5ms/bit
@@ -128,3 +132,33 @@ bleue: 100bps
 l'aire sous la courbe semble constante, quand la hauteur augmente la largeur diminue
 ### PROBLEME : Quels sont les avantages et inconvénients d’une modulation FSK ?
 les avantages par rapport à la modulation ASK est une meilleure resistance au bruit, ainsi qu'une synchronisation à chaques bits, lié à la modification de la porteuse. de plus, il a une bonne efficacitée energétique quel que soit la vitesse à emmetre, cependant, son efficacitée spectrale n'est pas des meilleures car son spectre est très étalé.
+
+
+### Compte-rendu de Travaux Pratiques
+
+#### Titre du TP: Génération de Signaux et Modulation Numérique
+
+### Introduction
+L'objectif de ces travaux pratiques était de comprendre les principes fondamentaux de la génération de signaux et de la modulation numérique. Nous avons exploré les avantages des séquences pseudo-aléatoires par rapport aux signaux carrés, examiné comment la logique d'encodage limite les risques de perte de données, utilisé MATLAB pour créer un signal modulé en amplitude, évalué les limites de la modulation/démodulation ASK, et analysé les avantages et inconvénients de la modulation FSK.
+
+### Génération de Signaux et Logique d'Encodage
+1. **Pourquoi générer des séquences pseudo-aléatoires plutôt qu'un signal carré ?**
+   - La génération de séquences pseudo-aléatoires est privilégiée car elle représente mieux un signal du monde réel, comme la voix sur la radio, contrairement à un signal carré. Les séquences pseudo-aléatoires sont plus représentatives des fluctuations naturelles observées dans les signaux réels.
+
+2. **En quoi la logique d'encodage limite les risques de perte de données à la réception ?**
+   - La logique d'encodage, telle que le NRZ polaire, le RZ unipolaire, ou le Manchester, limite les risques de perte de données en introduisant des transitions régulières, facilitant ainsi la synchronisation et la détection des bits. Chaque type d'encodage résout spécifiquement les problèmes de perte de synchronisation associés à certaines séquences de bits.
+
+### Création d'un Signal Modulé en Amplitude avec MATLAB
+3. **Comment créer un signal modulé en amplitude avec MATLAB ?**
+   - Pour répondre à cette question, nous avons utilisé MATLAB pour moduler un signal en amplitude. Nous avons suivi une démarche précise en utilisant les fonctions appropriées pour générer et moduler le signal, soulignant ainsi le lien entre la théorie et la pratique.
+
+### Limites de la Modulation/Démodulation ASK
+4. **Quelles sont les limites de la modulation/démodulation ASK ?**
+   - La modulation par amplitude (ASK) présente des limites, notamment une sensibilité accrue au bruit, entraînant une difficulté de lecture du signal modulé. Ces limites doivent être prises en compte lors de l'utilisation de la modulation/démodulation ASK dans des environnements sujets à des niveaux élevés de bruit.
+
+### Avantages et Inconvénients de la Modulation FSK
+5. **Quels sont les avantages et inconvénients d'une modulation FSK ?**
+   - La modulation FSK offre des avantages tels qu'une meilleure résistance au bruit, une synchronisation facilitée à chaque bit, et une efficacité énergétique constante. Cependant, son efficacité spectrale peut être limitée en raison d'un spectre étalé. Il est crucial de peser ces avantages et inconvénients en fonction des exigences spécifiques de la communication.
+
+### Conclusion
+Ce compte-rendu met en lumière l'importance de la génération de signaux et de la modulation numérique dans les communications. Les séquences pseudo-aléatoires, la logique d'encodage, l'utilisation de MATLAB, les limites de l'ASK, et les caractéristiques de la FSK ont été explorées. Ces travaux pratiques ont renforcé notre compréhension des concepts théoriques associés à la pratique de la génération et de la modulation des signaux.
