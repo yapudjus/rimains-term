@@ -1,0 +1,13 @@
+# installation du rpi
+ - on flash l'image 
+	 - ![[Pasted image 20240110103933.png]]
+ - on trouve l'ip du rpi
+	 - ![[Pasted image 20240110104011.png]]
+ - on se connecte en sse et mets à jours les dépots
+	 - ![[Pasted image 20240110104102.png]]
+ - on mets à jours touts les packages
+	 - ![[Pasted image 20240110104159.png]]
+ - on configure l'accès ssh par clé
+	 - j'ajoute mes clé publiques au fichier `~/.ssh/authorized_keys` le contenu est 
+	 - ```ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0/RBZALbslBlUM4Olx6+J48wU8ReRPgrCjzLrSVTaDsJLzz8mXgJhKjMEtU4UmJzI/eUBUcR7Ia9AUcW2RBpfcgyL12yDCro6OWoXyzcMNR3Sj9Yf8lHa+xEqpU9+tETmLX2LBMshz/djtRbV2zIEIRiyFwys72cpJf5BiNZCXqSzsv9Gfo7K8Tlx/YRe5M7l9MNXsXu+/vjmT+2fIfgZlHnyMEEJOD83gQ9H9Pf/2QuLEr5N96yelrkVunW1dat6AcQ7yxIQQy9aTdG0ZNCGYYWdyQtwSbIeHPMbGkLONwItTphWAr+ZxqjSW/ogh+cQ/VN6bKXCqGiggEI8j2nqiM32pJYXIy1hYf1IXeIxb+SDan36HK3+GIjMIYPoHc7+WG5vfiuzuFzhwxZAmRbTz+0jtst6CAlDa8rY90b758asX9h2aa+LBGAL7oDgY7DYcAg5pKi77tqQii7BB9eLFDNU6VQAs2o+1Fyg6+rfKB6z62gUl/O+gMzevNLxAos= yapudjus@thickpad```
+ - quand fini on reboot
