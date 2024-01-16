@@ -152,7 +152,7 @@
             }
           },
           {
-            "id": "09dabd60926cd847",
+            "id": "6f0c61045f7e6a60",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -160,7 +160,7 @@
             }
           },
           {
-            "id": "845b809422473c4e",
+            "id": "df8cf0cc6da8df63",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,12 +190,15 @@
   },
   "active": "91717105b3526cca",
   "lastOpenFiles": [
+    "Pasted image 20240115103116.png",
+    "religion - fete  nouvelle religion.md",
+    "religion  - opposition à la raison.md",
+    "CR.md",
     "Pasted image 20240110104159.png",
     "Pasted image 20240110104134.png",
     "Pasted image 20240110104102.png",
     "Pasted image 20240110104011.png",
     "Pasted image 20240110103933.png",
-    "CR.md",
     "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
     "SIN/SIN/S6 - Transmission/4-TP_1/CR.pdf",
     "SIN/SIN/S6 - Transmission/4-TP_2/ScenarioTP-Sequence9a.pdf",
@@ -204,7 +208,6 @@
     "Pasted image 20231213110106.png",
     "Pasted image 20231213104843.png",
     "Pasted image 20231213104202.png",
-    "Pasted image 20231213103935.png",
     "2I2D/raydan/2i2d/bac/questions.md",
     "2I2D/raydan/2i2d/bac",
     "2I2D/raydan/2i2d/cours/1-thermique/2eau-bateau1/eau douce intro 2022.odt",
@@ -233,8 +236,6 @@
     "Untitled 1.md",
     "SIN/SIN/S4 - Composants/TP/TP - OuvrePortegarage - MATLAB.md",
     "SIN/signaux/ENTRYPOINT Signaux.md",
-    "SIN/signaux/EXO.md",
-    "SIN/signaux/signal sinusoidal.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
