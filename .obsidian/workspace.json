@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CR.md",
+                "file": "SIN/COMPTE RENDUS DE TP.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5,
-    "collapsed": true
+    "width": 411.5
   },
   "right": {
     "id": "749da12f55592087",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CR.md",
+                "file": "SIN/COMPTE RENDUS DE TP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CR.md",
+                "file": "SIN/COMPTE RENDUS DE TP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CR.md"
+                "file": "SIN/COMPTE RENDUS DE TP.md"
               }
             }
           },
@@ -152,7 +151,7 @@
             }
           },
           {
-            "id": "6f0c61045f7e6a60",
+            "id": "de550e3d844009a8",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -160,7 +159,7 @@
             }
           },
           {
-            "id": "df8cf0cc6da8df63",
+            "id": "fe0cb0e23b7eb24e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -172,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,10 +188,11 @@
   },
   "active": "91717105b3526cca",
   "lastOpenFiles": [
+    "SIN/SIN/proj cluster rpi securitee/CR.md",
+    "SIN/SIN/proj cluster rpi securitee/CR.pdf",
     "Pasted image 20240115103116.png",
     "religion - fete  nouvelle religion.md",
     "religion  - opposition à la raison.md",
-    "CR.md",
     "Pasted image 20240110104159.png",
     "Pasted image 20240110104134.png",
     "Pasted image 20240110104102.png",
@@ -207,7 +206,6 @@
     "Pasted image 20231213110456.png",
     "Pasted image 20231213110106.png",
     "Pasted image 20231213104843.png",
-    "Pasted image 20231213104202.png",
     "2I2D/raydan/2i2d/bac/questions.md",
     "2I2D/raydan/2i2d/bac",
     "2I2D/raydan/2i2d/cours/1-thermique/2eau-bateau1/eau douce intro 2022.odt",
@@ -215,7 +213,6 @@
     "2I2D/raydan/2i2d/cours/1-thermique/2eau-bateau1",
     "2I2D/raydan/2i2d/cours/1-thermique",
     "2I2D/raydan/2i2d/cours",
-    "2I2D/raydan/2i2d",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_2/cr.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/cr-gen.md",
     "Mise en œuvre d’un capteur de température LM35.md",
