@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIN/COMPTE RENDUS DE TP.md",
+                "file": "SIN/SIN/proj cluster rpi securitee/CR.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/COMPTE RENDUS DE TP.md",
+                "file": "SIN/SIN/proj cluster rpi securitee/CR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/COMPTE RENDUS DE TP.md",
+                "file": "SIN/SIN/proj cluster rpi securitee/CR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/COMPTE RENDUS DE TP.md"
+                "file": "SIN/SIN/proj cluster rpi securitee/CR.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             }
           },
           {
-            "id": "de550e3d844009a8",
+            "id": "f8900cc8ae25729c",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -159,7 +159,7 @@
             }
           },
           {
-            "id": "fe0cb0e23b7eb24e",
+            "id": "554ac753b254eff9",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -188,6 +188,7 @@
   },
   "active": "91717105b3526cca",
   "lastOpenFiles": [
+    "SIN/COMPTE RENDUS DE TP.md",
     "SIN/SIN/proj cluster rpi securitee/CR.md",
     "SIN/SIN/proj cluster rpi securitee/CR.pdf",
     "Pasted image 20240115103116.png",
