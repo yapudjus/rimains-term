@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 307.5,
+    "collapsed": true
   },
   "right": {
     "id": "749da12f55592087",
@@ -167,12 +168,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,6 +189,11 @@
   },
   "active": "e832c5689b51d57b",
   "lastOpenFiles": [
+    "Pasted image 20240208230430.png",
+    "Pasted image 20240208230132.png",
+    "Pasted image 20240208225743.png",
+    "Pasted image 20240208225223.png",
+    "Pasted image 20240208225030.png",
     "Pasted image 20240208223521.png",
     "Pasted image 20240208222422.png",
     "Pasted image 20240208222055.png",
@@ -212,11 +217,6 @@
     "Pasted image 20240115103116.png",
     "religion - fete  nouvelle religion.md",
     "religion  - opposition à la raison.md",
-    "Pasted image 20240110104159.png",
-    "Pasted image 20240110104134.png",
-    "Pasted image 20240110104102.png",
-    "Pasted image 20240110104011.png",
-    "Pasted image 20240110103933.png",
     "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",
     "2I2D/raydan/2i2d/bac/questions.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_2/cr.md",

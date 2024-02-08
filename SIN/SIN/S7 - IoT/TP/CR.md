@@ -11,3 +11,16 @@ le paquet 1 est la machine 1 qui demande à tout le reseau (target @FF:FF:FF:FF:
 le paquet 2 est la réponse donnant l'@MAC correspondante
 ### un exemple sur un reseau domestique:
 ![[Pasted image 20240208223521.png]]
+### conclusion sur ARP
+nous pouvons déduire que le protocole ARP permet de lier les @MAC\[physiques] et les ports du switch\[logiques] sur un réseau
+## CAM/SAT
+nous constatons en 1er que la table cam/sat du switch est vide
+nous lancons ensuite un ping vers .2
+![[Pasted image 20240208225223.png]]
+nous pouvons constater que les appareils ayant communiqué apparaissent désormais sur la table du switch
+![[Pasted image 20240208225743.png]]
+de plus, l'appareil .3 à reçu une reqt ARP, cependant, **elle n'y a pas rep**
+désormais, nous envoyons un ping vers .3, et pouvons constater que la table s'enrichie avec le port et l'@mac de la machine .3
+![[Pasted image 20240208230132.png]]
+de+, .3 recoit un autre ARP req, y repondant cette fois car elle connait l'@mac demandée ~~(normal c'est elle)~~
+![[Pasted image 20240208230430.png]]
