@@ -24,6 +24,8 @@ désormais, nous envoyons un ping vers .3, et pouvons constater que la table s'e
 ![[Pasted image 20240208230132.png]]
 de+, .3 recoit un autre ARP req, y repondant cette fois car elle connait l'@mac demandée ~~(normal c'est elle)~~
 ![[Pasted image 20240208230430.png]]
+### conclusion?
+la table CAM/SAT permet au switch de savoir "où est qui", afin de distribuer les paquets aux bons destinataires, et pas juste envoyer le paquet à tt le monde
 ## Routeur et passerelle
 ### sans configurer nôtre passerelle
 depuis 192.168.0.1, les machines suivantes sont:
@@ -45,3 +47,5 @@ depuis 192.168.0.1, les machines suivantes sont:
 - 192.168.2.2 : **accessible**
 en tracant la route entre .0.1 et .2.1, on voit que la passerelle sert de... bah passerelle
 ![[Pasted image 20240208231632.png]]
+### conclusion passerelle
+dans ce TP, nous avons vu l'utilitée des passerelles qui permettent de faire communiquer des machines de différents réseaux entre elles, en servant de... ponts (yep j'arrête la blague)
