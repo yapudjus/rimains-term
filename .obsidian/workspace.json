@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
-    "collapsed": true
+    "width": 307.5
   },
   "right": {
     "id": "749da12f55592087",
@@ -189,6 +188,7 @@
   },
   "active": "e832c5689b51d57b",
   "lastOpenFiles": [
+    "SIN/SIN/S7 - IoT/TP/CR-tmp-1_2_3.pdf",
     "Pasted image 20240208231632.png",
     "Pasted image 20240208231423.png",
     "Pasted image 20240208230430.png",
@@ -200,7 +200,6 @@
     "Pasted image 20240208222422.png",
     "Pasted image 20240208222055.png",
     "SIN/SIN/S7 - IoT/TP/tp.fls",
-    "Pasted image 20240208221458.png",
     "SIN/SIN/S7 - IoT/TP/CR.md",
     "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.pdf",
     "SIN/SIN/S3 - Electricité/0-FicheSequence3a/Sc‚narios des TP (s‚quence 3a).pdf",
