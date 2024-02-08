@@ -15,6 +15,7 @@
   "skip_sections": false,
   "smart_chat_model": "gpt-3.5-turbo-16k",
   "view_open": true,
-  "version": "1.6.50",
-  "failed_files": []
+  "version": "1.6.55",
+  "failed_files": [],
+  "best_new_plugin": false
 }
