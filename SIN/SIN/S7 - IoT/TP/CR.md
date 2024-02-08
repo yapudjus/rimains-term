@@ -24,3 +24,24 @@ désormais, nous envoyons un ping vers .3, et pouvons constater que la table s'e
 ![[Pasted image 20240208230132.png]]
 de+, .3 recoit un autre ARP req, y repondant cette fois car elle connait l'@mac demandée ~~(normal c'est elle)~~
 ![[Pasted image 20240208230430.png]]
+## Routeur et passerelle
+### sans configurer nôtre passerelle
+depuis 192.168.0.1, les machines suivantes sont:
+- 192.168.0.2 : **accessible**
+- 192.168.0.3 : **accessible**
+- 192.168.2.1 : non
+- 192.168.2.2 : non
+### en conf uniquement la passerelle
+depuis 192.168.0.1, les machines suivantes sont:
+- 192.168.0.2 : **accessible**
+- 192.168.0.3 : **accessible**
+- 192.168.2.1 : non
+- 192.168.2.2 : non
+### En configurant aussi les ordinateurs
+depuis 192.168.0.1, les machines suivantes sont:
+- 192.168.0.2 : **accessible**
+- 192.168.0.3 : **accessible**
+- 192.168.2.1 : **accessible**
+- 192.168.2.2 : **accessible**
+en tracant la route entre .0.1 et .2.1, on voit que la passerelle sert de... bah passerelle
+![[Pasted image 20240208231632.png]]
