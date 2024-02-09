@@ -151,7 +151,7 @@
             }
           },
           {
-            "id": "a07855b68785081a",
+            "id": "66d3c9eab30eedca",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -159,7 +159,7 @@
             }
           },
           {
-            "id": "bc33ed5866c5310a",
+            "id": "42cca7e42aed2a23",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -167,11 +167,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,17 +189,19 @@
   },
   "active": "e832c5689b51d57b",
   "lastOpenFiles": [
+    "SIN/SIN/S7 - IoT/TP/CR.pdf",
+    "Pasted image 20240209074845.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208231632.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208230430.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208230132.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208225743.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208225223.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208225030.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208223521.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208222422.png",
+    "SIN/SIN/S7 - IoT/TP/Pasted image 20240208222055.png",
+    "SIN/SIN/S7 - IoT/TP/CR-tmp-1_2_3.html",
     "SIN/SIN/S7 - IoT/TP/CR-tmp-1_2_3.pdf",
-    "Pasted image 20240208231632.png",
-    "Pasted image 20240208231423.png",
-    "Pasted image 20240208230430.png",
-    "Pasted image 20240208230132.png",
-    "Pasted image 20240208225743.png",
-    "Pasted image 20240208225223.png",
-    "Pasted image 20240208225030.png",
-    "Pasted image 20240208223521.png",
-    "Pasted image 20240208222422.png",
-    "Pasted image 20240208222055.png",
     "SIN/SIN/S7 - IoT/TP/tp.fls",
     "SIN/SIN/S7 - IoT/TP/CR.md",
     "SIN/SIN/S3 - Electricité/7-SyntheseSequence3a/7-SyntheseSequence3a.pdf",
@@ -208,12 +211,10 @@
     "SIN/SIN/S3 - Electricité/1-Cours-SignauxElectriques/4 - la_charge_du_condensateur.pdf",
     "SIN/SIN/S3 - Electricité/1-Cours-SignauxElectriques/3 - can_et_cna.pdf",
     "SIN/SIN/S3 - Electricité/1-Cours-SignauxElectriques/2 - generateurs_de_tension_et_generateurs_de_courant.pdf",
-    "SIN/SIN/S3 - Electricité/1-Cours-SignauxElectriques/1-Cours-SignauxElectriques.pdf",
     "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/proj cluster rpi securitee/CR.md",
     "SIN/COMPTE RENDUS DE TP.md",
-    "SIN/SIN/proj cluster rpi securitee/CR.pdf",
     "religion - fete  nouvelle religion.md",
     "religion  - opposition à la raison.md",
     "SIN/SIN/S6 - Transmission/4-TP_1/CR.md",

@@ -6,5 +6,9 @@
     "landscape": false,
     "margin": "1",
     "downscalePercent": 100
-  }
+  },
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./"
 }

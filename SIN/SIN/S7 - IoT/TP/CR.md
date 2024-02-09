@@ -14,7 +14,7 @@ le paquet 2 est la réponse donnant l'@MAC correspondante
 ### conclusion sur ARP
 nous pouvons déduire que le protocole ARP permet de lier les @MAC\[physiques] et les ports du switch\[logiques] sur un réseau
 ## CAM/SAT
-nous constatons en 1er que la table cam/sat du switch est vide
+nous constatons en 1er que la table cam/sat du switch est vide 
 nous lancons ensuite un ping vers .2
 ![[Pasted image 20240208225223.png]]
 nous pouvons constater que les appareils ayant communiqué apparaissent désormais sur la table du switch
@@ -49,3 +49,6 @@ en tracant la route entre .0.1 et .2.1, on voit que la passerelle sert de... bah
 ![[Pasted image 20240208231632.png]]
 ### conclusion passerelle
 dans ce TP, nous avons vu l'utilitée des passerelles qui permettent de faire communiquer des machines de différents réseaux entre elles, en servant de... ponts (yep j'arrête la blague)
+## DNS
+on configure un ordinateur sur le reseau comme un serveur DNS et on ajoute une entrée dans sa table de liaison
+![[Pasted image 20240209074845.png]]
