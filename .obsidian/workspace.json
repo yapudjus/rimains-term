@@ -151,7 +151,7 @@
             }
           },
           {
-            "id": "66d3c9eab30eedca",
+            "id": "f95453488a16b494",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -159,7 +159,7 @@
             }
           },
           {
-            "id": "42cca7e42aed2a23",
+            "id": "75e7d7f94811dd89",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -171,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5,
-    "collapsed": true
+    "width": 206.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +186,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e832c5689b51d57b",
+  "active": "75e7d7f94811dd89",
   "lastOpenFiles": [
     "SIN/SIN/S7 - IoT/TP/CR.pdf",
     "Pasted image 20240209074845.png",
