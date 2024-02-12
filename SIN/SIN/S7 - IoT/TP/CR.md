@@ -1,5 +1,3 @@
-## à del (ou pas)
-![](Pasted%20image%2020240208221006.png)
 ## table ARP
 avant toute communication, et sur un reseau à 2 machines, le setup est le suivant <br>
 ![](Pasted%20image%2020240208221458.png) <br>
@@ -12,7 +10,7 @@ le paquet 2 est la réponse donnant l'@MAC correspondante
 ### un exemple sur un reseau domestique:
 ![](Pasted%20image%2020240208223521.png)
 ### conclusion sur ARP
-nous pouvons déduire que le protocole ARP permet de lier les @MAC\[physiques] et les ports du switch\[logiques] sur un réseau
+nous pouvons déduire que le protocole ARP permet de lier les @MAC\[physiques] et les ports du switch sur un réseau
 ## CAM/SAT
 nous constatons en 1er que la table cam/sat du switch est vide <br>
 nous lancons ensuite un ping vers .2 <br>
@@ -52,3 +50,23 @@ dans ce TP, nous avons vu l'utilitée des passerelles qui permettent de faire co
 ## DNS
 on configure un ordinateur sur le reseau comme un serveur DNS et on ajoute une entrée dans sa table de liaison <br>
 ![](Pasted%20image%2020240209074845.png) <br>
+en effectuant un ping vers `www.nsi.fr` depuis .0.3, on remarque deux échanges DNS <br>
+![](Pasted%20image%2020240212082733.png)<br>
+## WEB
+en ayant un srvweb sur .2.2 {www.nsi.fr} <br>
+![](Pasted%20image%2020240212085359.png)<br>
+les paquets sont les suivants:
+- 1&2: resolution du domaine via le dns
+- 6: requete de la page parent du site (/)
+- 8: reponse du site et retour de la page parent (/)
+- 10&{12,14,16,18,20,22}: requete et reponse de l'image du site
+## http vs https
+en http, on voit que tout est transmi en clair, par exemple (en local):<br>
+![](Pasted%20image%2020240212090313.png)<br>
+tandis qu'en https, en prenant l'exemple de parcoursup, aucun trafic n'est lisible<br>
+![](Pasted%20image%2020240212091327.png)<br>
+cependant, ce système est (difficilement) contournable par une attaque par mitm, ainsi qu'un contournement de certificat ou une injection de certificat auprès du client, nous donnant accès au traffic<br>
+![](Pasted%20image%2020240212091633.png)<br>
+(içi, le certificat d'autoritée unique à mon proxy d'ecoute a été ajoutté en confiance sur firefox, seulement sur un conteneur d'ecoute)<br>
+### conclusion http,s
+l'usage du protocole https est à priviligier car il permet une "sécuritée" dans l'echange de données, tandis qu'une communication http classique est visible de tous, cependant, d'autres mesures sécurité sont à prendre, comme les classiques "ne pas cliquer sur tout les liens", "ne pas entrer ses info partout" et "retaper le lien à la main pour éviter des remplacements de lettres (ex: remplacer le a de amazon.fr avec un symbole russe ressemblant à un a)"
