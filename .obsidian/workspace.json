@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIN/SIN/S7 - IoT/TP/CR.md",
+                "file": "SIN/Entrainement BAC/14061.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "6f0cbd95d5877b5b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/SIN/S7 - IoT/TP/CR.md",
+                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/SIN/S7 - IoT/TP/CR.md",
+                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/SIN/S7 - IoT/TP/CR.md"
+                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf"
               }
             }
           },
@@ -151,7 +162,7 @@
             }
           },
           {
-            "id": "91a9d42a022d1810",
+            "id": "a8312f2987a2a623",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -159,7 +170,7 @@
             }
           },
           {
-            "id": "8ad9135dddbb6d53",
+            "id": "df75107926afd233",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -171,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 206.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,16 +198,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "8ad9135dddbb6d53",
+  "active": "6f0cbd95d5877b5b",
   "lastOpenFiles": [
+    "SIN/Entrainement BAC/14061.md",
+    "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
+    "SIN/SIN/S7 - IoT/TP/CR.md",
     "SIN/SIN/S7 - IoT/TP/CR.pdf",
     "SIN/SIN/S7 - IoT/TP/Pasted image 20240212091633.png",
     "SIN/SIN/S7 - IoT/TP/Pasted image 20240212091327.png",
     "SIN/SIN/S7 - IoT/TP/Pasted image 20240212090313.png",
     "SIN/SIN/S7 - IoT/TP/Pasted image 20240212085359.png",
     "SIN/SIN/S7 - IoT/TP/Pasted image 20240212082733.png",
-    "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
-    "SIN/Entrainement BAC/14061.md",
     "SIN/Entrainement BAC/Pasted image 20240212074619.png",
     "C2.md",
     "SIN/Entrainement BAC/Pasted image 20240211124214.png",
@@ -211,7 +224,6 @@
     "SIN/SIN/S3 - Electricité/3-TP/CR-TP-3a.md",
     "SIN/SIN/S4 - Composants/3-TD_Sequence_9a/TP - condensateur.md",
     "SIN/Entrainement BAC/Pasted image 20240209104614.png",
-    "SIN/SIN/S7 - IoT/TP/CR.md",
     "SIN/Entrainement BAC/Chaudière a granulé.pdf",
     "SIN/Entrainement BAC/958-sujet-zero-sti2d-etude-systeme-hydroplaneur.pdf",
     "SIN/Entrainement BAC",
