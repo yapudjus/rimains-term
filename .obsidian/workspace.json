@@ -8,29 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65bc9be6b47e668c",
+            "id": "7c171aa9158e29f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SIN/Entrainement BAC/14061.md",
+                "file": "SIN/SIN/S7 - IoT/TD/p3.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "6f0cbd95d5877b5b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -81,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 307.5,
+    "collapsed": true
   },
   "right": {
     "id": "749da12f55592087",
@@ -97,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
+                "file": "SIN/SIN/S7 - IoT/TD/p3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
+                "file": "SIN/SIN/S7 - IoT/TD/p3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf"
+                "file": "SIN/SIN/S7 - IoT/TD/p3.md"
               }
             }
           },
@@ -162,7 +153,7 @@
             }
           },
           {
-            "id": "a8312f2987a2a623",
+            "id": "04c7107f60beec69",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -170,7 +161,7 @@
             }
           },
           {
-            "id": "df75107926afd233",
+            "id": "15f597d9f88c7d80",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -198,10 +189,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6f0cbd95d5877b5b",
+  "active": "7c171aa9158e29f4",
   "lastOpenFiles": [
+    "SIN/SIN/S7 - IoT/TD/exercicesReseaux-p3.pdf",
+    "SIN/SIN/S7 - IoT/TD/p3.md",
+    "SIN/SIN/S7 - IoT/TD/Pasted image 20240219190130.png",
+    "SIN/SIN/S7 - IoT/TD/exercicesReseaux-p1.pdf",
+    "SIN/SIN/S7 - IoT/TD/p1.md",
     "SIN/Entrainement BAC/14061.md",
     "SIN/Entrainement BAC/14061-sti2d-sept-2021-sujet-sin.pdf",
+    "Untitled.md",
     "SIN/SIN/S7 - IoT/TP/CR.md",
     "SIN/SIN/S7 - IoT/TP/CR.pdf",
     "SIN/SIN/S7 - IoT/TP/Pasted image 20240212091633.png",
@@ -227,10 +224,7 @@
     "SIN/Entrainement BAC/Chaudière a granulé.pdf",
     "SIN/Entrainement BAC/958-sujet-zero-sti2d-etude-systeme-hydroplaneur.pdf",
     "SIN/Entrainement BAC",
-    "Pasted image 20240209074845.png",
     "SIN/SIN/S7 - IoT/TP/CR-tmp-1_2_3.html",
-    "SIN/SIN/S7 - IoT/TP/CR-tmp-1_2_3.pdf",
-    "SIN/SIN/S7 - IoT/TP/tp.fls",
     "SIN/SIN/S4 - Composants/2-Cours-InterrupteursParfaits/les transistors bipolaire.md",
     "SIN/SIN/proj cluster rpi securitee/CR.md",
     "SIN/COMPTE RENDUS DE TP.md",
@@ -242,9 +236,6 @@
     "^introduction-2.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/lumin-cr.md",
     "SIN/SIN/S5 - Capteurs - acquisition de l'information/4-TP_1/lm35-cr.md",
-    "SIN/SIN/BUS CAN/EST-2010.md",
-    "CR-CAN.md",
-    "SIN/SIN/S5 - Capteurs - acquisition de l'information/synthese/AAAAAARGH.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
