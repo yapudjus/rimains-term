@@ -6,10 +6,10 @@ $f'(x)=\left(1-\ln\left(x\right)\right)^2-2\left(1-\ln\left(x\right)\right)2$<br
 $(ln(x)+1)(ln(x)−1)=ln(x)^2-2\left(1-\ln\left(x\right)\right)=f'(x)2$<br>
 
 ## b
-|   x   | 0     |      | $\frac{1}{e}$  |      | 1    |
-| ---: | :---- | :--: | :--: | :---: | ----: |
-| $f(x)$  | undef |  $\nearrow$   |$\frac{4}{e}$|    $\searrow$ | 1    |
-| $f'(x)$ | undef |  +   |  0   |    - | -1   |
+|       x | 0     |            | $\frac{1}{e}$ |            |   1 |
+| ------: | :---- | :--------: | :-----------: | :--------: | --: |
+|  $f(x)$ | undef | $\nearrow$ | $\frac{4}{e}$ | $\searrow$ |   1 |
+| $f'(x)$ | undef |     +      |       0       |     -      |  -1 |
 # 2
 ## a
 environ $12.5 ua$

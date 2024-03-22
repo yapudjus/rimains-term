@@ -1,5 +1,5 @@
 **.mp4
 **/__pycache_/
-
+**/venv/
 # Ignore Smart Connections folder because embeddings file is large and updated frequently
 .smart-connections
